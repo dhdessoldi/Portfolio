@@ -25,19 +25,19 @@ export default function Header() {
                     />
           <nav id="navbar" className={[styles.container__navbar, (!show?styles.container__show:'')].join(' ')}>
             <Link
-              to="/"
+              to="/curriculum"
               onClick={()=>setShow(!show)}
             >
               Meu currículo
             </Link>
             <Link
-              to="/"
+              to="/portfolio"
               onClick={()=>setShow(!show)}
             >
               Meu trabalho
             </Link>
             <Link
-              to="/"
+              to="/contato"
               onClick={()=>setShow(!show)}
             >
               Contato
