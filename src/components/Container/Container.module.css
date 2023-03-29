@@ -1,0 +1,6 @@
+.container {
+    padding: 2rem 2rem;
+    text-align: center;
+    background-color: var(--color-bg-secondary);
+    color: var(--color-font-main);
+}
