@@ -1,8 +1,11 @@
+import Button from 'components/Button';
 import React from 'react'
+import { useNavigate } from 'react-router-dom';
 import styles from './Curriculum.module.css'
 import gif from './the-office.gif'
 
 export default function Curriculum() {
+  const navigate = useNavigate();
   return (
     <section className={styles.container}>
     <h1 className={styles.container__title}>
@@ -14,9 +17,9 @@ export default function Curriculum() {
       src={gif}
       alt="The Office gif from https://tenor.com/"
     />
-    {/* <Link to="/">
-      <Button text="Voltar" />
-    </Link> */}
+      <div onClick={()=>navigate("/")}>
+        <Button text="Voltar" />
+      </div>
   </section>
   )
 }

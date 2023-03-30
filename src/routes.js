@@ -4,6 +4,7 @@ import Curriculum from "pages/Curriculum";
 import Home from "pages/Home";
 import NotFound from "pages/NotFound";
 import Portfolio from "pages/Portfolio";
+import Post from "pages/Post";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function AppRoutes() {
@@ -17,6 +18,7 @@ function AppRoutes() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="*" element={<NotFound />} />
         </Route>
+          <Route path="/posts/:id/*" element={<Post />} />
       </Routes>
     </BrowserRouter>
   );

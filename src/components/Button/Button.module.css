@@ -1,0 +1,21 @@
+.button {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--color-button);
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--color-bg-main);
+    border-radius: 0.5rem;
+    box-shadow:  4px 4px 0px #000000;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--color-bg-secondary);
+}
+
+.button__text {
+    color: var(--color-font-main);
+    font-weight: bold;
+    font-size: 1.25rem;
+}

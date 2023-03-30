@@ -1,8 +1,11 @@
 import React from "react";
 import styles from "./NotFound.module.css";
 import gif from "./giphy.gif";
+import Button from "components/Button";
+import { useNavigate } from "react-router-dom";
 
 export default function NotFound() {
+  const navigate = useNavigate();
   return (
     <section className={styles.container}>
       <h1 className={styles.container__title}>
@@ -13,9 +16,9 @@ export default function NotFound() {
         src={gif}
         alt="John Travolta confused in pixel art from https://giphy.com/"
       />
-      {/* <Link to="/">
+      <div onClick={()=>navigate("/")}>
         <Button text="Voltar" />
-      </Link> */}
+      </div>
     </section>
   );
 }
