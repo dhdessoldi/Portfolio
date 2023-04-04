@@ -8,8 +8,8 @@ export default function PostCard({ post }) {
     <Link to={`/posts/${post.id}`}>
       <div className={styles.post}>
         <img
-          className={styles.post__banner}
-          src={`/assets/posts/${post.id}/1.PNG`}
+          className={styles.post__image}
+          src={`/assets/posts/${post.id}/Capa.jpeg`}
           alt="Imagem de capa do post"
         />
         <h2 className={styles.post__title}>{post.title}</h2>
