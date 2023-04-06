@@ -56,6 +56,7 @@
     .container__navbar a {
         border: none;
         padding: 0;
+        font-size: 1.25rem;
     }
 
     .container__navbar_icon {
@@ -83,6 +84,7 @@
     .container__navbar a {
         border: none;
         padding: 0;
+        font-size: 1.5rem;
     }
 
     .container__navbar_icon {

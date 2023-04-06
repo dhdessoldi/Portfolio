@@ -5,7 +5,7 @@
     background-color: var(--color-bg-tertiary);
     padding: 24px;
     text-align: center;
-    font-weight: 500;
+    font-weight: bold;
     margin: 0;
   }
   
@@ -34,6 +34,10 @@
       align-items: center;
       gap: 1rem;
     }
+
+    .container__social_links {
+      gap: 1rem;
+    }
   }
   
   @media screen and (min-width: 1440px) {
@@ -42,11 +46,14 @@
       align-items: center;
       padding: 2rem 8rem;
       justify-content: space-between;
+
     }
   
-    .container__social {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
+    .container__social, .container__social_links {
+      gap: 2rem;
+    }
+
+    .container__text, .container__social_text {
+      font-size: 1.5rem;
     }
   }

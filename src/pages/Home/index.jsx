@@ -6,7 +6,7 @@ import myPhoto from "assets/profile.jpg";
 export default function Home() {
   return (
     <PostModel>
-      <h3 className={styles.subtitle}>Olá, eu sou o Daniel!</h3>
+      <h1 className={styles.subtitle}>Olá, eu sou o Daniel!</h1>
       <img
         src={myPhoto}
         alt="Uma foto do Daniel deitado em um balanço"

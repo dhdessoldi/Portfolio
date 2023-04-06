@@ -1,0 +1,56 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 3rem;
+  }
+
+  .container__title {
+    padding: 2rem 0 0 0;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .container__gif {
+    padding: 2rem 0;
+    max-width: 200px;
+  }
+
+  .container__button {
+    display: block;
+    margin: 0 0 2rem 0;
+  }
+
+  @media screen and (min-width: 768px) {
+
+    .container__title {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .container__gif {
+        max-width: 338px;
+      }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .container__title {
+        padding: 3rem 0 0 0;
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .container__gif {
+        border: none;
+        margin: 0 auto;
+      }
+
+      .container__button {
+        margin: 3rem auto;
+      }
+
+}
