@@ -10,7 +10,7 @@ export default function Footer() {
           <a href="https://github.com/dhdessoldi">
             <img src="/assets/icons/github.png" alt="logo do github" />
           </a>
-          <a href="https://instagram.com/dhdessoldi">
+          <a href="https://instagram.com/danieldessoldi">
             <img src="/assets/icons/instagram.png" alt="logo do instagram" />
           </a>
           <a href="https://linkedin.com">

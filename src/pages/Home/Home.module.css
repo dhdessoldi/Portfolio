@@ -22,11 +22,12 @@
     float: none;
     display: block;
     margin: 0 auto 2rem;
-    width: 70vw;
+    width: 60vw;
   }
 
   .paragraph {
     margin-bottom: 2rem;
+    font-size: 1.25rem;
   }
 }
 
