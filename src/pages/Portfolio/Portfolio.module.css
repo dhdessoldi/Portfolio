@@ -11,6 +11,11 @@
   margin-bottom: 1.5rem;
 }
 
+.container__text a {
+  text-decoration: underline;
+  color: var(--color-button);
+}
+
 .container__posts {
   padding-bottom: 3.625rem;
   display: flex;

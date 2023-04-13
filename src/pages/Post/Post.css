@@ -3,7 +3,7 @@
 .post-markdown-container h4,
 .post-markdown-container h5,
 .post-markdown-container h6 {
-    font-family: var(--color-font-main);
+    font-family: var(--font-title);
 }
 
 .post-markdown-container h3 {
@@ -20,18 +20,18 @@
     text-align: justify;
     font-size: 1.5rem;
     line-height: 2.25rem;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .post-markdown-container a {
-    color: #0493d4;
+    color: var(--color-button);
     text-decoration: underline;
 }
 
 .post-markdown-container img {
     display: block;
-    margin: 0 auto;
-    width: 100%;
+    margin: 4rem auto;
+    width: 60%;
 }
 
 .post-markdown-container ul {
@@ -39,15 +39,17 @@
 }
 
 .post-markdown-container ul > li {
+    margin-left: 2rem;
     margin-bottom: 1rem;
-    list-style: disc;
+    list-style: outside;
 }
 
 .post-markdown-container pre,
 .post-markdown-container blockquote {
     margin-bottom: 1.5rem;
     padding: 1rem;
-    background-color: #eaeaea;
+    background-color: var(--color-bg-tertiary);
+    font-family: var(--font-main);
     border-radius: 5px;
 }
 
@@ -56,6 +58,9 @@
 }
 
 @media (max-width: 1100px) {
+    .post-markdown-container img {
+        width: 100%;
+    }
     .post-markdown-container p {
         margin-bottom: 2rem;
     }
@@ -71,5 +76,6 @@
     .post-markdown-container p {
         font-size: 1rem;
         line-height: 1.75rem;
+        margin-bottom: 1.5rem;
     }
 }
