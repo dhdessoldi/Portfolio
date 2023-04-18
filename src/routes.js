@@ -19,6 +19,7 @@ function AppRoutes() {
           <Route path="/curriculum" element={<Curriculum />} />
           <Route path="/contato" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/posts/*" element={<NotFound />} />
         </Route>
           <Route path="/posts/:id/*" element={<Post />} />
       </Routes>
