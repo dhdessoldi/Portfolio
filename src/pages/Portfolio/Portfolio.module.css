@@ -12,7 +12,8 @@
 }
 
 .container__text a {
-  text-decoration: underline;
+  text-decoration: none;
+  font-weight: bold;
   color: var(--color-button);
 }
 
