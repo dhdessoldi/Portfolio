@@ -14,6 +14,24 @@ Para facilitar a navegação entre as páginas, foi utilizado o elemento <Link> 
   
   Para a criação dos posts, um arquivo JSON foi criado com as informações sobre cada post em MarkDown. 
   Essas informações são mapeadas e estão presentes em cada postagem sobre meu trabalho.
+  
+ ## Execução
+  
+  Para rodar a aplicação será necessário instalar:
+
+* [Visual Studio Code](https://code.visualstudio.com/) ou algum outro editor de código;
+* [Node.js](https://nodejs.org/en);
+* [Git](https://git-scm.com/downloads);
+
+Após baixar instalar os programas acima e baixar o código, abra a pasta da aplicação pelo Visual Studio Code, com ela aberta siga os seguintes passos:
+
+* Pressiona **Ctrl + '** para abrir o terminal;
+* Digite **npm install** para instalar as dependências do projeto;
+* Digite **npm start** para rodar a aplicação e abri-la em seu navegador.
+  
+  
+  ### ScreenShots
+
 
 ## Créditos
 
