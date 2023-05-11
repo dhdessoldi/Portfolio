@@ -30,7 +30,10 @@ Após baixar instalar os programas acima e baixar o código, abra a pasta da apl
 * Digite **npm start** para rodar a aplicação e abri-la em seu navegador.
   
   
-  ### ScreenShots
+ ## ScreenShots
+  
+  ![Captura de tela da página de portfólio com os posts referentes aos meus trabalhos de engenharia](https://github.com/dhdessoldi/Portfolio/assets/110476564/6c1eef19-71aa-4796-be0b-2fd279838903)
+
 
 
 ## Créditos
