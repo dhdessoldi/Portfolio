@@ -17,6 +17,11 @@
   margin-bottom: 1.5rem;
 }
 
+.paragraph a {
+  font-weight: bold;
+  color: var(--color-bg-tertiary);
+}
+
 @media (min-width: 768px) {
   .myPhoto {
     float: none;
