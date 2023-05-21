@@ -8,7 +8,7 @@ export default function Home() {
     birthDate = new Date(birthDate);
     otherDate = new Date(otherDate);
 
-    var years = (otherDate.getFullYear() - birthDate.getFullYear());
+    let years = (otherDate.getFullYear() - birthDate.getFullYear());
 
     if ((otherDate.getMonth() < birthDate.getMonth()) || 
         (otherDate.getMonth() === birthDate.getMonth() && otherDate.getDate() < birthDate.getDate())) {
@@ -28,20 +28,29 @@ export default function Home() {
         className={styles.myPhoto}
       />
       <p className={styles.paragraph}>
-        Olá! Seja bem vindo ao meu site pessoal. Meu nome é Daniel Hermano Dessoldi, tenho {age} anos, sou formado em Engenharia Mecânica Plena pelo Centro Universitário da FEI desde 2018 e atuo no mercado de trabalho como Calculista e Projetista de Estruturas em Aço.
+      Olá! Seja bem-vindo ao meu site pessoal! Meu nome é Daniel Hermano Dessoldi, tenho {age} anos, sou formado em Engenharia Mecânica Plena, pelo Centro Universitário da FEI. 
       </p>
       <p className={styles.paragraph}>
-        Enquanto frequentava a universidade, trabalhei no Itaú Unibanco, integrando o time de Gestão de Ativos e da Configuração de Data Center entre julho de 2017 e outubro de 2018. Atuava em duas frentes de trabalho, as atribuições da Gestão de Ativos eram gerenciar e garantir que todos os equipamentos do banco que estavam dentro dos Data Centers (mainframes, roteadores, switches, entre outros) tivessem seu ciclo de vida segundo as diretrizes da insituição e as recomendações da ITIL, além de garantir que todos esses equipamentos estivessem com as informações atualizadas, como endereço físico e contato da equipe responsável, para mitigar riscos e proporcionar um menor tempo de solução de problemas ou incidentes. Caso não conheça, ITIL é a sigla para Information Technology Infrastructure Library, em tradução: Biblioteca de Infraestrutura de Tecnologia da Informação, e consiste em um conjunto das melhores práticas para fornecer serviços de TI aos clientes de sua empresa. Como Gestão da Configuração, atuava com o CMDB (Configuration Management Database, em tradução: Banco de Dados de Gerenciamento da Configuração) e as atribuições consistiam em mapear os itens de configuração e as integrações entre eles. Assim, em caso de queda de algum serviço de negócio, era possível rastrear quais sistemas suportavam este serviço e quais servidores rodavam esses sistemas, providenciando um melhor tempo de resposta e atuação dos times da Gestão de Problemas e Gestão de Incidentes.
+      Entre julho de 2017 e outubro de 2018 estagiei no Itaú Unibanco, trabalhando com Governança de TI. Atuava em duas frentes: Gestão de Ativos e da Configuração de Data Center.  
+      </p>
+      <p className={styles.paragraph}>
+      Em Gestão de Ativos, as principais atribuições eram gerenciar e garantir que todos os equipamentos do banco que estivessem dentro dos Data Centers (mainframes, roteadores, switches, entre outros), seguissem seu ciclo de vida segundo as diretrizes da instituição e as recomendações da ITIL, além de garantir a atualização das informações, como endereço físico e contato da equipe responsável. Para assim, mitigar riscos e proporcionar um menor tempo de solução de problemas ou incidentes.  
+      </p>
+      <p className={styles.paragraph}>
+      Caso não conheça, ITIL é a sigla para Information Technology Infrastructure Library (em tradução: Biblioteca de Infraestrutura de Tecnologia da Informação). Consiste em um conjunto das melhores práticas para fornecer serviços de TI aos clientes de sua empresa.  
+      </p>
+      <p className={styles.paragraph}>
+      Como Gestão da Configuração, atuava com o CMDB - Configuration Management Database, em tradução: Banco de Dados de Gerenciamento da Configuração. Uma das principais atribuições consistia em mapear os itens de configuração e as integrações entre eles. Assim, em caso de queda de algum serviço de negócio, era possível rastrear quais sistemas suportavam este serviço e quais servidores rodavam esses sistemas, providenciando um melhor tempo de resposta e atuação dos times da Gestão de Problemas e Gestão de Incidentes. 
+      </p>
+      <p className={styles.paragraph}>
+      Em outubro de 2018, já próximo de me graduar, optei por atuar na minha área de graduação e a trabalhar como engenheiro projetista na <a href='http://ieengenharia.com.br/'>IE Industrial Engenharia</a>. Após me especializar, passei a atuar como Calculista e Projetista de Estruturas em Aço. Cuidando de todo o ciclo de elaboração e execução de projetos, desde o contato com o cliente, realizando visitas técnicas, levantamentos in loco, pré-projetos, elaboração de orçamentos, até a entrega final, gerenciando recursos, acompanhando a execução e montagem da obra.  
       </p>
 
       <p className={styles.paragraph}>
-        Em outubro de 2018, já próximo de me graduar, optei por conhecer o mercado de engenharia e atuar na minha área de graduação. Comecei a trabalhar como projetista na <a href='http://ieengenharia.com.br/'>IE Industrial Engenharia</a>, da qual trabalho até então. Após me especializar, passei a atuar como Calculista e Projetista de Estruturas em Aço... continuar passando um link para saber mais, falando sobre a empresa ser de pequeno porte, fornecedora de serviços e minhas atribuições aqui, sobre todo meu ciclo de trabalho e contato com o cliente.
-      </p>
-
-      <p className={styles.paragraph}>
-        Falar sobre os dias atuais, hobbies e meus estudos de programação.
+      Em 2022 iniciei meus estudos em programação, buscando a transição de carreira, para me tornar desenvolvedor em TI. Com foco em HTML, CSS, SCSS, JavaScript, React com JavaScript, Acessibilidade na Web, Testing Libraries. Com diversos cursos concluídos na <a href='https://cursos.alura.com.br/user/dhdessoldi'>Alura</a>,  Para conferir meu portfólio, que inclui o desenvolvimento deste site, acesse meu perfil no <a href='https://github.com/dhdessoldi'>Github</a>. 
       </p>
 
     </PostModel>
   )
 }
+
